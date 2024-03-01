@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 #import image and show on screen
-img = cv.imread("")
+img = cv.imread("Image0.jpg")
 
 #convert to grey scale
 img_gray = cv.cvtColour(img, cv.COLOUR_BGR2GRAY)
